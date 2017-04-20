@@ -158,12 +158,12 @@ void reverse(int arreglo[],int tam){
 }
 //13
 //14
-int sum(int arreglo, int tam){
+int sum(int arreglo[], int tam){
     int sum=0;
     for(int x=0;x<tam;x++){
         sum=sum+arreglo[x];
     }
-    return sum
+    cout<<"la suma es "<<sum<<endl;
 }
 //15
 int main()
@@ -213,7 +213,7 @@ int main()
     cambio(x,y);
     cout<<"el valor de a es "<<x<<endl;
     cout<<"el valor de b es "<<y<<endl;
-    */
+
     cout<<"pregunta 9"<<endl;
     cout<<"ingrese el tamaño de la lista: ";cin>>tam;
     int arreglo[tam];
@@ -229,18 +229,18 @@ int main()
     cout<<"pregunta 12"<<endl;
     cout<<"ingrese el tamaño de la lista: ";cin>>tam;
     int arreglo1[tam];
-    arraymaker(arreglo,tam);
-    printarray(arreglo,tam);
-    reverse(arreglo,tam);
-    printarray(arreglo,tam);
+    arraymaker(arreglo1,tam);
+    printarray(arreglo1,tam);
+    reverse(arreglo1,tam);
+    printarray(arreglo1,tam);
 
     cout<<"pregunta 13"<<endl;
-
+    */
     cout<<"pregunta 14"<<endl;
-    arraymaker(arreglo,tam);
-    printarray(arreglo,tam);
-    sum(arreglo,tam);
-    printarray(arreglo,tam);
+    cout<<"ingrese el tamaño de la lista: ";cin>>tam;
+    int arreglo2[tam];
+    arraymaker(arreglo2,tam);
+    sum(arreglo2,tam);
 
     cout<<"pregunta 15"<<endl;
 
