@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 //1
 float millas(float mil){
@@ -166,38 +165,38 @@ int sum(int arreglo[], int tam){
     cout<<"la suma es "<<sum<<endl;
 }
 //15
+
 int main()
 {
     int dato,x,y,tam;
     char op;
-    /*
-    cout<<"pregunta 1"<<endl;
+    cout<<"----------------pregunta 1----------------"<<endl;
     cout<<"ingrese el dato ";cin>>dato;
     millas(dato);
 
-    cout <<"pregunta 2"<<endl;
+    cout <<"----------------pregunta 2----------------"<<endl;
     celcius();
 
-    cout<<"pregunta 3"<<endl;
+    cout<<"----------------pregunta 3----------------"<<endl;
     cout<<"ingrese un numero para saber si es par o no ";cin>>x;
     impa(x);
-    /*
-    cout<<"pregunta 4"<<endl;
+
+    cout<<"----------------pregunta 4----------------"<<endl;
     cout<<"ingrese la base";cin>>x;
     cout<<"ingrese exponente";cin>>y;
     base(x,y);
 
-    cout<<"pregunta 5"<<endl;
+    cout<<"----------------pregunta 5----------------"<<endl;
     cout<<"ingrese numero";cin>>x;
     numpa(x);
 
-    cout<<"pregunta 6"<<endl;
+    cout<<"----------------pregunta 6----------------"<<endl;
     cout<<"ingrese el operando ";cin>>op;
     cout<<"ingrese el x ";cin>>x;
     cout<<"ingrese el y ";cin>>y;
     oper(op,x,y);
 
-    cout<<"pregunta 8"<<endl;
+    cout<<"----------------pregunta 7----------------"<<endl;
     cout<<"intercambiar numeros"<<endl;
     cout << "Ingresa el numero A" << endl;cin >> x;
     cout << "Ingresa el numero B" << endl;cin >> y;
@@ -207,14 +206,14 @@ int main()
     cout<<"el valor de A es "<<x<< endl;
     cout<<"el valor de B es "<<y<< endl;
 
-    cout<<"pregunta 8"<<endl;
+    cout<<"----------------pregunta 8----------------"<<endl;
     cout<<"valor de a "<<endl;cin>>x;
     cout<<"valor de b "<<endl;cin>>y;
     cambio(x,y);
     cout<<"el valor de a es "<<x<<endl;
     cout<<"el valor de b es "<<y<<endl;
 
-    cout<<"pregunta 9"<<endl;
+    cout<<"----------------pregunta 9----------------"<<endl;
     cout<<"ingrese el tamaño de la lista: ";cin>>tam;
     int arreglo[tam];
     arraymaker(arreglo,tam);
@@ -222,11 +221,11 @@ int main()
     insercion(arreglo,tam);
     printarray(arreglo,tam);
 
-    cout<<"pregunta 10"<<endl;
+    cout<<"----------------pregunta 10----------------"<<endl;
 
-    cout<<"pregunta 11"<<endl;
+    cout<<"----------------pregunta 11----------------"<<endl;
 
-    cout<<"pregunta 12"<<endl;
+    cout<<"----------------pregunta 12----------------"<<endl;
     cout<<"ingrese el tamaño de la lista: ";cin>>tam;
     int arreglo1[tam];
     arraymaker(arreglo1,tam);
@@ -234,15 +233,15 @@ int main()
     reverse(arreglo1,tam);
     printarray(arreglo1,tam);
 
-    cout<<"pregunta 13"<<endl;
-    */
-    cout<<"pregunta 14"<<endl;
+    cout<<"----------------pregunta 13----------------"<<endl;
+
+    cout<<"----------------pregunta 14----------------"<<endl;
     cout<<"ingrese el tamaño de la lista: ";cin>>tam;
     int arreglo2[tam];
     arraymaker(arreglo2,tam);
     sum(arreglo2,tam);
 
-    cout<<"pregunta 15"<<endl;
+    cout<<"----------------pregunta 15----------------"<<endl;
 
     return 0;
 }
